@@ -1,0 +1,11 @@
+{
+  "name": "coding-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "npm": "^7.6.2",
+    "aws-sdk": "^2.864.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,44 @@
+.App {
+}
+
+.App-header {
+}
+
+.report-wrapper {
+    width: auto;
+    display: flex;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.report-wrapper:last-of-type {
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.report-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.report-column div{
+    margin-bottom: 5px;
+}
+
+.first {
+    width: 40%;
+}
+.second {
+    flex: 2 1 auto;
+}
+
+.button {
+    width: 80px;
+}
+
+.report-column button {
+    margin: 5px 0;
+}
